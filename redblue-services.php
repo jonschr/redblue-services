@@ -32,7 +32,7 @@ function redblue_services_after_setup_theme(){
 
     global $_wp_additional_image_sizes;
 
-    if ( ! isset( $_wp_additional_image_sizes[ 'service-image' ] ) ) {
+    if ( ! isset( $_wp_additional_image_sizes[ 'service-small' ] ) ) {
         add_image_size( 'service-small', 300, 150, true );
     }
 
